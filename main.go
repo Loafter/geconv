@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	fmt.Println("This autorun writen by Andrew Rose GE HC Russia")
+	fmt.Println("This autorun writen by in GE HC Russia")
 	cmd := exec.Command("java", "-jar","DICOMVWR.CAB")
 	err := cmd.Start()
 	if err != nil {
